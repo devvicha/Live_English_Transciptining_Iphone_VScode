@@ -1,0 +1,12 @@
+name: live-english
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pip
+  - ffmpeg
+  - portaudio
+  - python-sounddevice
+  - pip:
+      - faster-whisper>=0.10.0
